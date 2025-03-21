@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="blog-posts" alt="blog" />
         <p>
-          Click <code>to view</code> Posts.
+          Click Posts <code>to view</code> all Posts.
         </p>
         <a
           className="App-link"
