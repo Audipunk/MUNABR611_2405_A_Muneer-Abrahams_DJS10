@@ -42,10 +42,10 @@ const BlogPosts = () => {
       {posts.map((post, index) => (
         <div key={post.id} className="post">
           <h2>
-            {index + 1}. {post.title}
+            {index + 1}. {post.Title}
           </h2>{" "}
           {/* Numbered title */}
-          <p>{post.body}</p>
+          <p><{post.Body}/></p>
         </div>
         ))}
     </div>
@@ -61,3 +61,4 @@ function Message() {
 }
 
 export default Message;
+}
